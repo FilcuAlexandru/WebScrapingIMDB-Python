@@ -47,6 +47,7 @@ Project Structure
  -> imdb_top_tv_series.xlsx: Excel file to store scraped top TV series data. This excel is visible only after running the SaveScrapedTVSeriesToExcel.py script.
 
 Docker Setup for WebScrapingIMDB Project:
+
  a.) Build the Docker Image, open a terminal in the project root directory and run the following command to build the Docker image: docker build -t webscrapingimdb-app .
  b.) Run the Docker Container, once the image is built, you can run a Docker container: docker run -it --rm webscrapingimdb-app
  c.) Explore the Container, you will now be inside the Docker container. Explore the contents and run scripts as needed.
