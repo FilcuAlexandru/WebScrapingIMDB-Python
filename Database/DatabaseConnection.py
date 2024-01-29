@@ -6,7 +6,7 @@ from sqlalchemy import create_engine, exc, MetaData
 
 # Personal Oracle 21c Database Credentials
 oracle_user = 'sys'
-oracle_password = 'NmweaC3Savl0kZP8nIam'
+oracle_password = 'your_password_here'
 oracle_host = 'localhost'
 oracle_port = '1521'  # Default Oracle listener port
 oracle_service_name = 'xe'  # or SID, depending on your Oracle Database configuration
